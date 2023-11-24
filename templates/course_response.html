@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration Response</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h1>Course Registration Response</h1>
+    <div class="response">
+        <p><strong>Message:</strong> {{ response.message }}</p>
+        <p><strong>Course ID:</strong> {{ response['Course ID'] }}</p>
+        <p><strong>Student ID:</strong> {{ response['Student ID'] }}</p>
+        <p><strong>Course Name:</strong> {{ response['Course Name'] }}</p>
+        <p><strong>Student Name:</strong> {{ response['Student Name'] }}</p>
+        <p><strong>Semester:</strong> {{ response.Semester }}</p>
+    </div>
+</body>
+</html>

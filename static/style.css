@@ -1,0 +1,137 @@
+html {
+    font-size: 17px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form__fieldset {
+    padding: 40px 20px;
+  }
+  
+  .form__fieldset:not(:last-of-type) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .form__input {
+    font-size: 1rem;
+  }
+  
+  .form__select {
+    padding: 4px 2px;
+  }
+  
+  .form__label {
+    margin-right: 20px;
+  }
+  
+  .form__submit {
+    padding: 8px 16px;
+    background-color: unset;
+    border: 2px solid #1c2023;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .form__submit:hover {
+    background-color: #1c2023;
+    color: white;
+  }
+  
+  
+  /* Add this CSS to your style.css file */
+.flash-message {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.flash-success {
+  background-color: #4CAF50;
+}
+
+.flash-error {
+  background-color: #f44336;
+}
+
+
+/* Add some general styles to the body and headings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style the table */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style hover effect for table rows */
+tr:hover {
+  background-color: #ccc;
+}
+
+
+
+/* Apply a background color to the body */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the response container */
+.response {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+/* Style the page title */
+h1 {
+  text-align: center;
+  color: #007BFF;
+}
+
+/* Style the strong elements */
+strong {
+  color: #007BFF;
+}
+
